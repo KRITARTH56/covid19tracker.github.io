@@ -1,0 +1,92 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;   
+}
+.carousel-item img
+{
+    width:100%;
+    height:93vh;
+}
+.about_img
+{
+min-width:100%;
+max-height:280px;
+} 
+services.row{
+   padding-right: calc(var(--bs-gutter-x)/2);
+   padding-left: calc(var(--bs-gutter-x)/2);
+}
+.menu {
+        background-color:black;
+        color:white;
+        text-align:center;
+        height:100px;
+        font-size:20px;
+        
+        
+
+}
+.menu ul li
+{
+  width:100%;
+    margin: 15px;
+    padding:  5px;
+    float:left;
+}
+.menu ul li
+   {   text-decoration: none;
+     color: white;
+}
+.fa{
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  align:center;
+  position:relative;
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  margin-top:12px;
+  background:#3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: pink;
+  color: white;
+
+}
+
+/*responsive css code*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
